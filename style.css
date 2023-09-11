@@ -1,0 +1,61 @@
+html, body {
+  background-image: url("./assets/marvelBackground.gif");
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  margin: 30px
+}
+
+h1 {
+  color: white;
+
+  text-align: center;
+
+  /* font-size: min(max(100px), 5vw); */
+  font-size: 80px;
+  font-family: 'Roboto', bold, sans-serif;
+
+  margin: 0px;
+}
+
+img#img-title {
+  width: 500px;
+
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+img {
+  width: 300px;
+
+  /* width: 303px; */
+  /* height: 303px; */
+
+  border-bottom-style: solid;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.personagem {
+  width: 300px;
+  margin: 20px;
+  border-style: solid;
+  border-radius: 16px;
+  text-align: center;
+  background-color: white;
+  color: red;
+}
+
+text {
+  color: black;
+  font-family: 'Roboto', bold, sans-serif;
+}
